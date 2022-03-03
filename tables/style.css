@@ -1,0 +1,39 @@
+/** {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}*/
+table {
+    margin-left:20px;
+    text-align:center;
+   text-transform: uppercase;
+}
+
+th {
+    color:red;
+}
+.headline {
+    font-weight:bold;
+    font-size:20px;
+}
+tr:nth-child(2n) {
+	background-color:rgb(142, 151, 255);
+    color:white;
+}
+a {
+    color:#fff;
+}
+td a:link {
+    background:blue;
+    text-decoration: none;
+    color: #fff;
+}
+td a:active {
+    background:green;
+    color:#fff;
+}
+
+td a:hover {
+    background:#fff;
+    color:#000;
+}
